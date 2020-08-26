@@ -9,12 +9,13 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('https://theimaginativeconservative.org/wp-content/uploads/2014/11/Fantasy__038816_.jpg');
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +36,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.movie {
+  height: 450px;
+  width: 300px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.moviebox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px 20px;
+}
+
+main {
+  background-color: rgb(0, 51, 0);
+  min-height: 100vh;
+  color: goldenrod;
+  text-shadow: 2px 2px 0px black;
+  padding: 20px;
+}
+
+h1 {
+  color: gold;
+  text-shadow: 2px 2px 0px black;
 }
